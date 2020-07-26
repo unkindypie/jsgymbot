@@ -1,0 +1,21 @@
+{
+  "name": "jsgymbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.25",
+    "node-cron": "^2.0.3",
+    "slimbot": "^4.9.0"
+  }
+}
