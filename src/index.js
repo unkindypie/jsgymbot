@@ -16,8 +16,9 @@ const input = readLine.createInterface({
 });
 
 cron.schedule(
-  '0 7,16 * * *',
+  '0 10,16 * * *',
   async () => {
+    console.log('annoying stask..');
     for await (const sub of Subscriber.find()) {
       await annoy(slimbot, sub);
     }

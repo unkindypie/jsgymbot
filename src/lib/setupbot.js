@@ -47,7 +47,9 @@ slimbot.on('message', async (message) => {
     `Shut up. I talk only to people who know js.`,
     `*angry bot noises*`,
     `...`,
-    `You does't deserve to talk to me. Learn js, baka.`,
+    `You don't deserve to talk to me. Learn js, baka.`,
+    `${sub.name}.knowsJS === false`,
+    `${sub.name} instanceof Javascriptizer: false`,
   ]);
 
   await slimbot.sendMessage(message.chat.id, answer);

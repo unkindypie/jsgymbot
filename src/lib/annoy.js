@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const pickone = require('../lib/pickone');
 
 const articles = JSON.parse(
   fs.readFileSync(path.join(__dirname, '../../data.json')).toString()
@@ -28,6 +29,7 @@ module.exports = async (slimbot, subscriber, text) => {
         `Time to take a break and complete a short exercise🧘‍♀️
       10x each side`,
         `Js can't learn itself. LEARN JS, BAKA.`,
+        `${sub.name}.knowsJS === true ? say('good human') : `,
       ])
     }\n ${articles[sub.currentProgress]}`
   );
