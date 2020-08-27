@@ -1,8 +1,8 @@
-JS Gym Bot
+JS Gym Bot(sends articles from .json file)
 
-the most anoying shit ever made
+the most anoying bot ever made
 
-# Hot to Run
+# How to Run
 
 create .env
 
